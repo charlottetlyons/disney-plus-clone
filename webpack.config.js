@@ -16,6 +16,13 @@ module.exports = {
                 exclude: /node_modules/,
             },
             {
+            test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                ]
+            },
+            {
                 test: /\.(jpg|png|svg)$/,
                 use: [
                     {
@@ -43,7 +50,6 @@ module.exports = {
         port: 8080,
         historyApiFallback: true,
     },
-
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
