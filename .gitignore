@@ -1,0 +1,15 @@
+# Folders
+/node_modules
+/build
+/.env
+/dist
+
+# Files
+package-lock.json
+
+# IDE folders
+.vscode/
+.idea/
+.classpath
+.project
+.settings/
