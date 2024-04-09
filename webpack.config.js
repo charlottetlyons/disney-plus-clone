@@ -43,7 +43,7 @@ module.exports = {
         }),
     ],
     resolve: {
-        extensions: ['.js'],
+        extensions: ['.js', '.jsx'],
     },
     devServer: {
         static: path.resolve(__dirname, 'dist'),
