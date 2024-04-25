@@ -46,7 +46,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
     },
     devServer: {
-        static: path.resolve(__dirname, 'dist'),
+        static: path.resolve(__dirname, 'public'),
         port: 8080,
         historyApiFallback: true,
     },
